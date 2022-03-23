@@ -1,0 +1,20 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "watch-ts": "tsc -w"
+  },
+  "author": "Josue",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.22",
+    "@types/validator": "^13.7.1"
+  },
+  "dependencies": {
+    "validator": "^13.7.0"
+  }
+}
